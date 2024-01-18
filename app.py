@@ -4,8 +4,8 @@ from keras.models import load_model
 import src.configs as cf 
 
 
-# model = load_model('./model/fine_tune_asl_model.h5')
-model = load_model('./model/cnn_asl_model.h5')
+model = load_model('./model/fine_tune_asl_model.h5')
+# model = load_model('./model/cnn_asl_model.h5')
 
 def regconize():
 	cam = cv2.VideoCapture(1)
