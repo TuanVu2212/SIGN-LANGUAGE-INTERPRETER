@@ -14,6 +14,8 @@ Bước 1: Tải các thư viện cần thiết bằng pip, gõ trên terminal n
 `pip install -r requirements.txt`   
 Bước 2: Chạy script sau:   
 `python src/train.py`
+hoặc:
+chạy file: `ASL_Inceptionv3_final.ipynb`
 
 # Model
 Transfer learning mô hình Inception V3
